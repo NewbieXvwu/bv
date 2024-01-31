@@ -7,7 +7,6 @@ import java.util.Properties
 
 plugins {
     alias(gradleLibs.plugins.android.application)
-    alias(gradleLibs.plugins.firebase.crashlytics)
     alias(gradleLibs.plugins.google.ksp)
     alias(gradleLibs.plugins.kotlin.android)
     alias(gradleLibs.plugins.kotlin.serialization)
