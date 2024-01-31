@@ -20,9 +20,6 @@ firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "
 # https://github.com/google/ksp
 google-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
-# https://developers.google.com/android/guides/google-services-plugin
-google-services = { id = "com.google.gms.google-services", version.ref = "gms" }
-
 # https://github.com/google/protobuf-gradle-plugin
 google-protobuf = { id = "com.google.protobuf", version.ref = "protobuf" }
 
