@@ -26,21 +26,6 @@ object NetworkUtil {
     }
 
     suspend fun isMainlandChina(): Boolean {
-        return runCatching {
-            val result = client.get(LOC_CHECK_URL).bodyAsText()
-            logger.info { "Network result:\n$result" }
-
-            networkCheckResult = result
-                .lines()
-                .filter { it != "" }
-                .associate {
-                    val splits = it.split("=")
-                    splits[0] to splits[1]
-                }
-
-            require(networkCheckResult["loc"] != "CN") { "BV doesn't support use in mainland China" }
-
-            false
-        }.getOrDefault(true)
+        return true
     }
 }
