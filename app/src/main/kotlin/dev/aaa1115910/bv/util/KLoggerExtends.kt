@@ -1,7 +1,5 @@
 package dev.aaa1115910.bv.util
 
-import com.google.firebase.crashlytics.ktx.crashlytics
-import com.google.firebase.ktx.Firebase
 import dev.aaa1115910.bv.BuildConfig
 import io.github.oshai.kotlinlogging.KLogger
 
