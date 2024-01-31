@@ -1,15 +1,8 @@
 pluginManagement {
-    repositories {
+    仓库 {
         google()
         mavenCentral()
         gradlePluginPortal()
-    }
-    resolutionStrategy {
-        eachPlugin {
-            when (requested.id.name) {
-                "crashlytics" -> useModule("com.google.firebase:firebase-crashlytics-gradle:2.9.9")
-            }
-        }
     }
 }
 dependencyResolutionManagement {
